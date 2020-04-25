@@ -1,0 +1,15 @@
+@import "../../../../../scss/variables";
+@import "../../../../../scss/mixins";
+@import "../../../../../styles";
+
+.login-page {
+  width: 100%;
+  .login-button {
+      color: white;
+      background-color: $blue-500;
+      border: solid 1px $blue-600;
+      margin: 0 0 0 25px;
+      @include sbd_btn;
+      @extend .centerText;
+  }
+}
